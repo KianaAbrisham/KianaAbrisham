@@ -19,8 +19,12 @@ My portfolio spans end-to-end clinical pipelines, classic ML **from scratch**, u
 - 🗣️ **Naive Bayes (Sentiment)** · sklearn pipeline + scratch implementation  
   https://github.com/KianaAbrisham/naive-bayes-sentiment
 
+## Links
+- **Google Scholar:** https://scholar.google.com/citations?user=69IoCyIAAAAJ&hl=en  
+- **ORCID:** https://orcid.org/0009-0007-4569-3196
+
 ## Tech
 Python · NumPy · pandas · scikit-learn · TensorFlow/Keras · PyTorch  
 
 ## Contact
-Email: kiana.abrisham@ut.ac.ir
+Email: <your_email_here>
