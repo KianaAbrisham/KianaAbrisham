@@ -27,4 +27,4 @@ My portfolio spans end-to-end clinical pipelines, classic ML **from scratch**, u
 Python · NumPy · pandas · scikit-learn · TensorFlow/Keras · PyTorch  
 
 ## Contact
-Email: <your_email_here>
+Email: kiana.abrisham@ut.ac.ir
