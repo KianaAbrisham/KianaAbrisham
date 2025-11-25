@@ -6,7 +6,7 @@ My portfolio spans end-to-end ML pipelines, classic ML **from scratch**, unsuper
 > Note: The repositories here are curated **portfolio demonstrations** (clean, reproducible projects). I also share **reproducible paper-code repositories** that run on publicly available datasets (with data excluded from the repo).
 
 ## Selected Projects
-- 🫀 **PPG-based cf-PWV Estimation (IEEE Access) — Paper Code** · feature extraction · correlation analysis · XGBoost regression · diagnostics  
+- 📈 **PPG-based cf-PWV Estimation (IEEE Access) — Paper Code** · feature extraction · correlation analysis · XGBoost regression · diagnostics  
   Repo: https://github.com/KianaAbrisham/ppg-cfpwv-ieee-access  
   Paper: https://ieeexplore.ieee.org/abstract/document/11218839
 
