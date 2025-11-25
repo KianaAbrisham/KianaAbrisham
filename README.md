@@ -1,11 +1,15 @@
 # Hi, I’m Kiana 👋
 
 I’m a data scientist focused on **digital cardiovascular research** and applied ML.  
-My portfolio spans end-to-end clinical pipelines, classic ML **from scratch**, unsupervised methods, **deep learning on tabular data**, computer vision transfer learning, and NLP.
+My portfolio spans end-to-end ML pipelines, classic ML **from scratch**, unsupervised methods, **deep learning on tabular data**, computer vision transfer learning, and NLP.
 
-> ⚠️ Note: The repositories here are curated **portfolio demonstrations** (clean, reproducible projects) and **not** my cardiovascular/arterial stiffness research code, which is kept private for publication and confidentiality reasons.
+> Note: The repositories here are curated **portfolio demonstrations** (clean, reproducible projects). Some research code is private (e.g., ongoing work or collaborations). Where possible, I also share **reproducible paper-code repositories** that run on publicly available datasets (with data excluded from the repo).
 
 ## Selected Projects
+- 🫀 **PPG-based cf-PWV Estimation (IEEE Access) — Paper Code** · feature extraction · correlation analysis · XGBoost regression · diagnostics  
+  Repo: https://github.com/KianaAbrisham/ppg-cfpwv-ieee-access  
+  Paper: https://ieeexplore.ieee.org/abstract/document/11218839
+
 - 🫀 **Stroke Prediction — ML Pipeline** · impute/scale/one-hot · class imbalance · ROC/PR · permutation importance  
   https://github.com/KianaAbrisham/stroke-prediction-ml-pipeline
 - 📐 **SVM from Scratch** · hinge + L2 · decision boundary · LinearSVC comparison  
@@ -24,7 +28,7 @@ My portfolio spans end-to-end clinical pipelines, classic ML **from scratch**, u
 - **ORCID:** https://orcid.org/0009-0007-4569-3196
 
 ## Tech
-Python · NumPy · pandas · scikit-learn · TensorFlow/Keras · PyTorch  
+Python · NumPy · pandas · scikit-learn · TensorFlow/Keras · PyTorch
 
 ## Contact
 Email: kianaabrisham@gmail.com
