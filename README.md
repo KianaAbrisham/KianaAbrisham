@@ -3,7 +3,7 @@
 I’m a data scientist focused on **digital cardiovascular research** and applied ML.  
 My portfolio spans end-to-end ML pipelines, classic ML **from scratch**, unsupervised methods, **deep learning on tabular data**, computer vision transfer learning, and NLP.
 
-> Note: The repositories here are curated **portfolio demonstrations** (clean, reproducible projects). I also share **reproducible paper-code repositories** that run on publicly available datasets (with data excluded from the repo).
+> Note: The repositories here are curated portfolio demonstrations (clean, reproducible projects). I also share reproducible paper-code repositories that run on publicly available datasets (with data excluded from the repo).
 
 ## Selected Projects
 - 📈 **PPG-based cf-PWV Estimation (IEEE Access) — Paper Code** · feature extraction · correlation analysis · XGBoost regression · diagnostics  
