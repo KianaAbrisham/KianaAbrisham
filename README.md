@@ -19,8 +19,6 @@ I develop Python workflows for physiological signals and applied machine learnin
 | [Stroke classification pipeline](https://github.com/KianaAbrisham/stroke-prediction-ml-pipeline) | Scikit-learn preprocessing, class imbalance handling, model comparison, ROC/PR analysis, and permutation importance, with a synthetic demo. |
 | [Feature-based PPG estimation — IEEE Access](https://github.com/KianaAbrisham/ppg-cfpwv-ieee-access) | PPG/SDPPG feature extraction, correlation analysis, XGBoost regression, and diagnostic plots from my research implementation. |
 
-The MobileNetV2 notebook records **77.0% accuracy on a 1,000-image CIFAR-10 test subset**, after training its classification head on 2,000 images with 500 separate validation images. The repository documents this small run and its limits.
-
 ## What I can contribute
 
 - **Biomedical data analysis:** waveform preprocessing, morphological and derivative-based features, spectrograms, and exploratory analysis.
