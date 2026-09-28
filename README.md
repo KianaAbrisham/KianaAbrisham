@@ -2,35 +2,35 @@
 
 **Machine learning · Biomedical signal processing · Python**
 
-I develop Python workflows for physiological signals and applied machine learning, from data preparation and feature extraction to model training, evaluation, and inference. My research focuses on PPG-based arterial stiffness estimation and age-related vascular changes. I hold an M.Sc. in Mechatronics from the University of Tehran.
+My research focuses on estimating arterial stiffness and studying age-related vascular changes from photoplethysmography (PPG). I hold an M.Sc. in Mechatronics from the University of Tehran. This portfolio brings together the related research code and smaller projects in classification, clustering, and transfer learning.
 
 **Open to remote roles, contract work, and freelance projects** in applied machine learning, biomedical signal processing, and Python research software.
 
 [Email](mailto:kianaabrisham@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=69IoCyIAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0007-4569-3196)
 
-## Selected projects
+## Research projects
 
-| Project | What it demonstrates |
+| Project | Focus and current evidence |
 | --- | --- |
-| [PPG estimation with CNN–BiLSTM–Attention](https://github.com/KianaAbrisham/ppg-cfpwv-attention) | TensorFlow/Keras waveform and spectrogram models, subject-ID validation, cross-validation, serializable attention, and saved-model inference. |
-| [PPG spectrogram regression with ResNet-18](https://github.com/KianaAbrisham/ppg-cfpwv-resnet) | PyTorch regression with explicit signal preprocessing, separate validation and test subjects, checkpoint selection, and inference. |
-| [PPG age-category benchmark](https://github.com/KianaAbrisham/ppg-vascular-age-benchmark) | Comparison of MLP, CNN1D, CNN2D, and VGG16 across six simulated age categories using shared stratified folds. |
-| [MobileNetV2 transfer learning on CIFAR-10](https://github.com/KianaAbrisham/cv-transfer-learning-mobilenetv2) | Executed notebook with batch preprocessing, held-out evaluation, checkpoint reload checks, and image-file inference. |
-| [Stroke classification pipeline](https://github.com/KianaAbrisham/stroke-prediction-ml-pipeline) | Scikit-learn preprocessing, class imbalance handling, model comparison, ROC/PR analysis, and permutation importance, with a synthetic demo. |
-| [Feature-based PPG estimation — IEEE Access](https://github.com/KianaAbrisham/ppg-cfpwv-ieee-access) | PPG/SDPPG feature extraction, correlation analysis, XGBoost regression, and diagnostic plots from my research implementation. |
+| [Feature-based cf-PWV estimation — IEEE Access](https://github.com/KianaAbrisham/ppg-cfpwv-ieee-access) | PPG/SDPPG features and XGBoost regression. Five-fold evaluation on 4,333 eligible radial PWDB subjects: mean RMSE 0.1809 m/s and R² 0.9925. |
+| [PPG age-category benchmark](https://github.com/KianaAbrisham/ppg-vascular-age-benchmark) | MLP, CNN1D, and CNN2D evaluated with five shared folds at two sites, using 4,374 PWDB subjects per site. VGG16 has separate artificial-data software checks. |
+| [CNN–BiLSTM–Attention for cf-PWV](https://github.com/KianaAbrisham/ppg-cfpwv-attention) | Compare waveform and spectrogram representations with temporal attention. Both paths have training and checkpoint checks; public-data preparation is verified and full PWDB evaluation remains pending. |
+| [ResNet-18 spectrogram regression](https://github.com/KianaAbrisham/ppg-cfpwv-resnet) | PyTorch regression with separate training, validation, and test subjects. The CPU demo and checkpoint checks pass; full PWDB evaluation remains pending. |
 
-## What I can contribute
+PWDB contains simulated virtual adults. The recorded public-data evaluations use the current refactored implementations; full reproduction of every published result and clinical validation have not been established. Each research repository links its paper, protocol, and validation evidence.
 
-- **Biomedical data analysis:** waveform preprocessing, morphological and derivative-based features, spectrograms, and exploratory analysis.
-- **Applied machine learning:** classification and regression pipelines, baseline comparisons, model evaluation, and error analysis.
-- **Research software:** converting notebooks into modular Python code with data checks, automated tests, documented experiments, and saved-model inference.
+## Applied machine-learning examples
 
-## Tools
+- [MobileNetV2 on CIFAR-10](https://github.com/KianaAbrisham/cv-transfer-learning-mobilenetv2): frozen-backbone transfer learning, held-out image classification, and checkpoint reuse in an executed notebook.
+- [Stroke classification pipeline](https://github.com/KianaAbrisham/stroke-prediction-ml-pipeline): preprocessing inside cross-validation, imbalanced-class metrics, and model selection on a synthetic tabular example.
+- NumPy implementations of [linear SVM](https://github.com/KianaAbrisham/svm-from-scratch), [multinomial Naive Bayes](https://github.com/KianaAbrisham/naive-bayes-sentiment), and [K-means](https://github.com/KianaAbrisham/kmeans-breast-cancer-portfolio), plus a [PyTorch tabular MLP](https://github.com/KianaAbrisham/mlp-pytorch-classifier).
 
-Python · NumPy · pandas · SciPy · scikit-learn · TensorFlow/Keras · PyTorch · Matplotlib
+## Technical focus
 
-## Research and validation
+Signal preprocessing · PPG/SDPPG features · Spectrograms · Classification and regression · Subject-level evaluation · Saved-model inference
 
-The three PPG deep learning repositories link their related publications and document completed software checks. Their artificial-data demos exercise the implementation; full reproduction of published results and clinical validation have not been established. Each repository explains its data requirements and evaluation scope.
+**Tools:** Python · NumPy · pandas · SciPy · scikit-learn · TensorFlow/Keras · PyTorch · Matplotlib
+
+Recent implementation, refactoring, documentation, and validation work used AI coding assistance. [Development notes](docs/DEVELOPMENT.md) distinguish that work from the source research and explain the recorded execution environments.
 
 For collaboration or project enquiries: **[kianaabrisham@gmail.com](mailto:kianaabrisham@gmail.com)**.
