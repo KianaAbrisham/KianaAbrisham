@@ -4,8 +4,6 @@
 
 My research focuses on estimating arterial stiffness and studying age-related vascular changes from photoplethysmography (PPG). I hold an M.Sc. in Mechatronics from the University of Tehran. This portfolio brings together the related research code and smaller projects in classification, clustering, and transfer learning.
 
-**Open to remote roles, contract work, and freelance projects** in applied machine learning, biomedical signal processing, and Python research software.
-
 [Email](mailto:kianaabrisham@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=69IoCyIAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0007-4569-3196)
 
 ## Research projects
