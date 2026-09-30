@@ -31,6 +31,6 @@ Signal preprocessing · PPG/SDPPG features · Spectrograms · Classification and
 
 **Tools:** Python · NumPy · pandas · SciPy · scikit-learn · TensorFlow/Keras · PyTorch · Matplotlib
 
-Recent implementation, refactoring, documentation, and validation work used AI coding assistance. [Development notes](docs/DEVELOPMENT.md) distinguish that work from the source research and explain the recorded execution environments.
+[Development notes](docs/DEVELOPMENT.md)
 
 For collaboration or project enquiries: **[kianaabrisham@gmail.com](mailto:kianaabrisham@gmail.com)**.
